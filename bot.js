@@ -3,10 +3,10 @@ const path = require('path');
 const fs = require('fs');
 const dotenv = require('dotenv');
 
-const envConfig = dotenv.parse(fs.readFileSync('.env'));
-for (const k in envConfig) {
-    process.env[k] = envConfig[k]
-};
+const envConfig = dotenv.config({silent: true});
+// for (const k in envConfig) {
+//     process.env[k] = envConfig[k]
+// };
 
 const client = new CommandoClient({
 	commandPrefix: 'tz.', 
