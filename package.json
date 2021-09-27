@@ -7,7 +7,7 @@
   "description": "Bot Discord qui envoi des quote aléatoire du serveur The Trilleurz",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node bot.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,7 @@
   "license": "ISC",
   "dependencies": {
     "discord.js": "^12.5.3",
-    "discord.js-commando": "git+https://github.com/discordjs/commando.git",
+    "discord.js-commando": "github:discordjs/commando",
     "dotenv": "^10.0.0",
     "save": "^2.4.0",
     "winston": "^3.3.3"
