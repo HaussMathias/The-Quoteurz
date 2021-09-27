@@ -1,0 +1,27 @@
+{
+  "name": "the-quoteurz",
+  "version": "1.0.0",
+  "description": "Bot Discord qui envoi des quote aléatoire du serveur The Trilleurz",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HaussMathias/The-Quoteurz.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "discord.js-commando": "git+https://github.com/discordjs/commando.git",
+    "dotenv": "^10.0.0",
+    "save": "^2.4.0",
+    "winston": "^3.3.3"
+  },
+  "bugs": {
+    "url": "https://github.com/HaussMathias/The-Quoteurz/issues"
+  },
+  "homepage": "https://github.com/HaussMathias/The-Quoteurz#readme"
+}
