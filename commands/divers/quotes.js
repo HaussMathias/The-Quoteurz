@@ -230,7 +230,7 @@ module.exports = class RandomCommand extends Command {
         embed
             .setColor("#00FFFF")
 
-            .setAuthor(`${this.client.user.tag}`, `${this.client.user.displayAvatarURL()}`)
+            .setAuthor(`${this.client.user.username}`, `${this.client.user.displayAvatarURL()}`)
 
             .addField(`${quotes[chap].nom} - ${quotes[chap].date}`, `"${quotes[chap].quote}"`)
             
