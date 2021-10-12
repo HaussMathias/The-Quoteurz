@@ -223,6 +223,12 @@ module.exports = class RandomCommand extends Command {
                 quote: "ok je suis libre jusqu'à 20€ ^^'"
             },
             
+            {
+                nom: "Hatrax",
+                date: "Octobre 2021",
+                quote: "MA BITE EST EN NOUILLE ! MA BITE EST EN PASTA lINGUINI !"
+            },
+            
         ];
 
         var chap = Math.floor(Math.random() * 34);
