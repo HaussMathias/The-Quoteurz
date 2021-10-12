@@ -231,7 +231,7 @@ module.exports = class RandomCommand extends Command {
             
         ];
 
-        var chap = Math.floor(Math.random() * 34);
+        var chap = Math.floor(Math.random() * 35);
 
         embed
             .setColor("#00FFFF")
