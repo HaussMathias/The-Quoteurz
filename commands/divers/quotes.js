@@ -229,9 +229,39 @@ module.exports = class RandomCommand extends Command {
                 quote: "MA BITE EST EN NOUILLE ! MA BITE EST EN PASTA lINGUINI !"
             },
             
+            {
+                nom: "Exotit",
+                date: "Octobre 2021",
+                quote: "J'ai tellement pas baiser dernièrement que j'ai l'impression d'être redevenu puceau"
+            },
+            
+            {
+                nom: "Exotit",
+                date: "Novembre 2021",
+                quote: "Je suis en train de lécher ma glace comme je lèche ma soeur."
+            },
+            
+            {
+                nom: "Exotit",
+                date: "Décembre 2021",
+                quote: "Respecte moi ! J'ai peut être des boobs mais il sont plus petit !"
+            },
+            
+            {
+                nom: "Hatrax",
+                date: "Janvier 2022",
+                quote: "LA VIE DE MA MERE JE SUCE DES BITES SI C'EST PAS BATMAN !"
+            },
+            
+            {
+                nom: "Estelle",
+                date: "Janvier 2022",
+                quote: "Ecoute, y a 2 trous, faut bien les utiliser"
+            },
+            
         ];
 
-        var chap = Math.floor(Math.random() * 35);
+        var chap = Math.floor(Math.random() * 40);
 
         embed
             .setColor("#00FFFF")
